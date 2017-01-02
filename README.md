@@ -1,19 +1,19 @@
 ﻿# pingpp-laravel5-plus
 pingxx基于laravel5的封装
 
-[![Latest Stable Version](https://poser.pugx.org/lyt8384/pingpp-laravel5-plus/v/stable)](https://packagist.org/packages/lyt8384/pingpp-laravel5-plus) [![Total Downloads](https://poser.pugx.org/lyt8384/pingpp-laravel5-plus/downloads)](https://packagist.org/packages/lyt8384/pingpp-laravel5-plus) [![Latest Unstable Version](https://poser.pugx.org/lyt8384/pingpp-laravel5-plus/v/unstable)](https://packagist.org/packages/lyt8384/pingpp-laravel5-plus) [![License](https://poser.pugx.org/lyt8384/pingpp-laravel5-plus/license)](https://packagist.org/packages/lyt8384/pingpp-laravel5-plus)
+[![Latest Stable Version](https://poser.pugx.org/sdfsky/pingpp-laravel5-plus/v/stable)](https://packagist.org/packages/sdfsky/pingpp-laravel5-plus) [![Total Downloads](https://poser.pugx.org/sdfsky/pingpp-laravel5-plus/downloads)](https://packagist.org/packages/sdfsky/pingpp-laravel5-plus) [![Latest Unstable Version](https://poser.pugx.org/sdfsky/pingpp-laravel5-plus/v/unstable)](https://packagist.org/packages/sdfsky/pingpp-laravel5-plus) [![License](https://poser.pugx.org/sdfsky/pingpp-laravel5-plus/license)](https://packagist.org/packages/sdfsky/pingpp-laravel5-plus)
 
 # 配置方法
 1. 在`composer.json`里添加如下内容，并运行`composer update`:
 ```json
 {
     "require": {
-        "lyt8384/pingpp-laravel5-plus": "dev-master"
+        "sdfsky/tipask-pingpp": "dev-master"
     }
 }
 ```
-1. 在`app/config/app.php`文件里的providers变量下添加`lyt8384\Pingpp\PingppServiceProvider::class,`
-1. 在`app/config/app.php`文件里的aliases变量下添加`'Pingpp' => lyt8384\Pingpp\Facades\Pingpp::class,`
+1. 在`app/config/app.php`文件里的providers变量下添加`sdfsky\Pingpp\PingppServiceProvider::class,`
+1. 在`app/config/app.php`文件里的aliases变量下添加`'Pingpp' => sdfsky\Pingpp\Facades\Pingpp::class,`
 1. 运行`php artisan vendor:publish`生成配置文件
 1. 修改配置文件里面的2组key
 1. 若需回调验证，请填写`pub_key`，**注意该处是KEY的内容！**

@@ -1,13 +1,13 @@
 {
-    "name": "lyt8384/pingpp-laravel5-plus",
-    "description": "Simple Pingpp wrapper for Laravel 5",
+    "name": "sdfsky/tipask-pingxx",
+    "description": "pingxx sdk for tipask",
     "license": "MIT",
-    "keywords": ["laravel", "laravel 5", "Pingpp", "Pingxx" ],
-    "homepage": "https://github.com/lyt8384/pingpp-laravel5-plus",
+    "keywords": ["tipask", "laravel5", "Pingxx" ],
+    "homepage": "https://github.com/sdfsky/tipask-pingxx",
     "authors": [
         {
-            "name": "lyt8384",
-            "email": "lyt8384@gmail.com"
+            "name": "sdf_sky",
+            "email": "sky_php@qq.com"
         }
     ],
     "require": {
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "lyt8384\\Pingpp\\": "src/"
+            "sdfsky\\Pingpp\\": "src/"
         }
     }
 }

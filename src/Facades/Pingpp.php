@@ -1,5 +1,5 @@
 <?php
-namespace lyt8384\Pingpp\Facades;
+namespace sdfsky\Pingpp\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

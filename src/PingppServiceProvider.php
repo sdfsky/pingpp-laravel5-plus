@@ -1,5 +1,5 @@
 <?php
-namespace lyt8384\Pingpp;
+namespace sdfsky\Pingpp;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
