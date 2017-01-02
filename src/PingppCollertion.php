@@ -62,11 +62,11 @@ class PingppCollertion
         }
 
         $config = config('pingpp');
-        if (!empty($config['pub_key'])) {
+        if (!empty($config['public_key_path'])) {
             $result = openssl_verify(
                 Request()->getContent(),
-                base64_decode(Request()->header('x-pingplusplus-signature')),
-                trim($config['pub_key']),
+                base64_decode(Request()->header('x-pingplusplus-signature',null)),
+                file_get_contents($config['public_key_path']),
                 OPENSSL_ALGO_SHA256);
 
             if ($result !== 1) {
