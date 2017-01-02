@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sdfsky\\Pingpp\\": "src/"
+            "Sdfsky\\Pingpp\\": "src/"
         }
     }
 }
