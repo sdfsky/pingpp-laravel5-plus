@@ -1,5 +1,5 @@
 <?php
-namespace sdfsky\Pingpp;
+namespace Sdfsky\Pingpp;
 
 use Pingpp;
 

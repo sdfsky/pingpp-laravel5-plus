@@ -1,5 +1,5 @@
 <?php
-namespace sdfsky\Pingpp;
+namespace Sdfsky\Pingpp;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
@@ -44,7 +44,7 @@ class PingppServiceProvider extends ServiceProvider
             __DIR__ . '/../config/pingpp.php' => config_path('pingpp.php'),
         ]);
 
-        AliasLoader::getInstance()->alias('Pingpp', 'lyt8384\Pingpp\Facades\Pingpp');
+        AliasLoader::getInstance()->alias('Pingpp', 'Sdfsky\Pingpp\Facades\Pingpp');
     }
 
     /**
