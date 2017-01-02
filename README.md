@@ -1,4 +1,4 @@
-﻿# pingpp-laravel5-plus
+﻿# tipask-pingpp
 pingxx基于laravel5的封装
 
 [![Latest Stable Version](https://poser.pugx.org/sdfsky/pingpp-laravel5-plus/v/stable)](https://packagist.org/packages/sdfsky/pingpp-laravel5-plus) [![Total Downloads](https://poser.pugx.org/sdfsky/pingpp-laravel5-plus/downloads)](https://packagist.org/packages/sdfsky/pingpp-laravel5-plus) [![Latest Unstable Version](https://poser.pugx.org/sdfsky/pingpp-laravel5-plus/v/unstable)](https://packagist.org/packages/sdfsky/pingpp-laravel5-plus) [![License](https://poser.pugx.org/sdfsky/pingpp-laravel5-plus/license)](https://packagist.org/packages/sdfsky/pingpp-laravel5-plus)
