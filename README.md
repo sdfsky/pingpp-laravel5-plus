@@ -8,7 +8,7 @@ pingxx基于laravel5的封装
 ```json
 {
     "require": {
-        "sdfsky/tipask-pingpp": "dev-master"
+        "sdfsky/tipask-pingxx": "dev-master"
     }
 }
 ```
